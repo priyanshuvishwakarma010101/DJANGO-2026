@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background-color:#f4f4f4;
+    padding:30px;
+}
+
+.resume{
+    max-width:1000px;
+    margin:auto;
+    background-color:white;
+    box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
+
+/* Header */
+
+.resume-header{
+    background-color:#3498db;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* Main Layout */
+
+.resume-body{
+    display:flex;
+}
+
+/* Sidebar */
+
+.resume-sidebar{
+    width:30%;
+    background-color:#ff6b35;
+    color:white;
+    padding:20px;
+}
+
+.profile-section{
+    display:flex;
+    justify-content:center;
+    margin-bottom:25px;
+}
+
+.profile-section img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.sidebar-section{
+    margin-bottom:30px;
+}
+
+.sidebar-section h3{
+    border-bottom:2px solid white;
+    margin-bottom:10px;
+    padding-bottom:5px;
+}
+
+.sidebar-section ul{
+    list-style:none;
+}
+
+.sidebar-section li{
+    margin-bottom:8px;
+}
+
+/* Right Side */
+
+.resume-content{
+    width:70%;
+    padding:25px;
+}
+
+.content-section{
+    margin-bottom:30px;
+}
+
+.content-section h2{
+    color:#3498db;
+    margin-bottom:10px;
+}
+
+.content-section p{
+    line-height:1.7;
+}
+
+.content-section ul{
+    padding-left:20px;
+}
